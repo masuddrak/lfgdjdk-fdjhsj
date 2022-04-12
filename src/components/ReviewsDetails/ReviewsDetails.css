@@ -1,0 +1,18 @@
+.reviews-details{
+border: 1px solid rgb(129, 127, 127);
+border-radius: 5px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.reviews-details img{
+    width: 200px;
+    height: 220px;
+    border-radius: 5px;
+}
+.review-icon{
+    width: 20px;
+}
+.reviews-info{
+    margin-left: 20px;
+}

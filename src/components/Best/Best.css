@@ -1,0 +1,14 @@
+.search-input{
+    width: 300px;
+    margin: 0 auto;
+
+}
+.search-input input{
+    width: 300px;
+    border: 1px solid ;
+   color: rgb(106, 173, 173);
+   border-radius: 5px;
+   padding: 10px;
+   outline: none;
+    
+}

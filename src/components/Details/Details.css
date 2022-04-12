@@ -1,0 +1,27 @@
+.details-img{
+    max-width: 400px;
+}
+.details-info{
+    margin: 20px ;
+}
+.details-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.hours-items{
+    display: flex;
+    justify-content: space-between;
+}
+.buttons{
+    background-color: rgb(106, 173, 173);
+    padding: 0px;
+    margin: 5px;
+    border: none;
+}
+@media screen and (max-width:1000px) {
+    .details-container{
+        display: block;
+    }
+}

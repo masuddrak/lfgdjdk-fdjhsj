@@ -1,0 +1,32 @@
+.photo-glary{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: space-between;
+    justify-items: center;
+    gap: 20px;
+}
+.home-title{
+    background-color: rgb(106, 173, 173);
+    width: 300px;
+    margin: 0 auto;
+    box-shadow: 2px 3px 2px rgb(45, 100, 100);
+    
+}
+.start-icon{
+    width: 20px;
+    color: rgb(177, 177, 1);
+}
+@media screen and (max-width:1000px) {
+    .photo-glary{
+        
+        grid-template-columns: repeat(2,1fr);
+        
+    }
+}
+@media screen and (max-width:500px) {
+    .photo-glary{
+        
+        grid-template-columns:repeat(2,1fr);
+        
+    }
+}
