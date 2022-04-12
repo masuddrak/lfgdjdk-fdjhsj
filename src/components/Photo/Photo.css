@@ -17,3 +17,11 @@
     }
     
 }
+@media screen and (max-width:450px) {
+    .photo img{
+        width: 150px;
+        height: 170px;
+        border-radius: 5px;
+    }
+    
+}
